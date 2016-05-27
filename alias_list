@@ -1,2 +1,11 @@
 alias update="sudo apt-get update"
 alias install="sudo apt-get install"
+alias genkey="ssh-keygen -t rsa -b 4096"
+alias copyid="ssh-copy-id"
+alias ll='ls -l -sort'
+alias ..='cd ..'
+alias ...='cd ../../'
+alias b='cd -'
+alias home='cd ~'
+alias commit='git commit -am'
+alias push='git push'
