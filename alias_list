@@ -12,3 +12,8 @@ alias push='git push'
 alias add-remote="git remote add origin"
 alias push-master="git push -u origin master"
 alias apt-list="apt --installed list"
+
+# tmux aliases 
+alias tls="tmux list-sessions"
+alias tn="tmux new -s"
+alias ta="tmux attach -t"
