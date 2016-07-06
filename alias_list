@@ -8,6 +8,7 @@ alias ...='cd ../../'
 alias b='cd -'
 alias home='cd ~'
 alias commit='git commit -am'
+alias graph='git log --oneline --abbrev-commit --all --graph'
 alias push='git push'
 alias add-remote="git remote add origin"
 alias push-master="git push -u origin master"
